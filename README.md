@@ -65,6 +65,11 @@ Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
 ```
 
 ```bash
+$ python substitution.py .test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
+ITSSG
+```
+
+```bash
 $ python substitution.py .test/03.in MLKJHGFDSQNBVCXWPOIUYTREZA
 Kxcfomuybmusxci! Uxjmz si zxyo jmz. Zxy'oh xgg ux Fohmu Wbmkhi! Zxy'oh xgg mcj mrmz!
 ```
