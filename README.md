@@ -22,6 +22,11 @@ In a file called `substitution.py`, create a program that enables you to encrypt
 - The second argument must be the key to encrypt the message.
 - The encrypted message must be printed on the standard output.
 
+```bash
+$ python substitution.py .test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
+ITSSG
+```
+
 You don't have to verify that the first argument is a filename, but you must check that the second
 argument contains all 26 alphabet characters. Obviously, you must verify that two arguments are provided.
 If an error occurs at this step, your program should print the folloing `Usage` and quit.
@@ -57,11 +62,6 @@ The following examples should help you to develop your program.
 ```bash
 $ python substitution.py .test/01.in AZERTYUIOPQSDFGHJKLMWXCVBN
 Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
-```
-
-```bash
-$ python substitution.py .test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
-ITSSG
 ```
 
 ```bash
