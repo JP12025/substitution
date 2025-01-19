@@ -4,9 +4,9 @@
 
 # What to Do
 
-In a substitution cipher, we “encrypt” (i.e., conceal in a reversible way) a message by replacing every letter with another letter. To do so, we use a key: in this case, a mapping of each of the letters of the alphabet to the letter it should correspond to when we encrypt it. To “decrypt” the message, the receiver of the message would need to know the key, so that they can reverse the process: translating the encrypt text (generally called ciphertext) back into the original message (generally called plaintext).
+In a substitution cipher, we “encrypt” (i.e., conceal in a reversible way) a message by replacing every letter with another letter. To do so, we use a key: in this case, a mapping of each of the letters of the alphabet to the letter it should correspond to when we encrypt it. To “decrypt” the message, the receiver of the message would need to know the key, so that they can reverse the process: translating the encrypt text (generally called `ciphertext`) back into the original message (generally called `plaintext`).
 
-A key, for example, might be the string `NQXPOMAFTRHZLGECYJIUWSKDVB`. This 26-character key means that A (the first letter of the alphabet) should be converted into N (the first character of the key), B (the second letter of the alphabet) should be converted into Q (the second character of the key), and so forth.
+A key, for example, might be the string `NQXPOMAFTRHZLGECYJIUWSKDVB`. This 26-character key means that A (the first letter of the alphabet) should be converted into N (the first character of the key), B should be converted into Q, and so forth.
 
 |plain|A|B|C|D|E|F|G|H|I|J|K|L|M|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -40,7 +40,7 @@ Add an optional third parameter at the of end the command line `-r` that let you
 ```bash
 $ cat message.txt
 Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
-$ python substitution.py message.txt AZERTYUIOPQSDFGHJKLMWXCVBN
+$ python substitution.py message.txt AZERTYUIOPQSDFGHJKLMWXCVBN -r
 One fish. Two fish! Red fish? Blue fish.
 ```
 
