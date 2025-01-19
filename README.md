@@ -23,8 +23,8 @@ In a file called `substitution.py`, create a program that enables you to encrypt
 - The encrypted message must be printed on the standard output.
 
 ```bash
-$ python substitution.py .test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
-ITSSG
+$ python substitution.py .test/02.in NQXPOMAFTRHZLGECYJIUWSKDVB
+FOZZE
 ```
 
 You don't have to verify that the first argument is a filename, but you must check that the second
