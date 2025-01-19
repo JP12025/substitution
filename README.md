@@ -31,6 +31,19 @@ $ python substitution.py
 Usage: python substitution.py filename key
 ```
 
+Your program must encrypt the entire contents of the file. Of course, it must only encrypt letters, but it must be case-sensitive. The encrypted message should keep punctuation, spaces, newlines and other hidden characters.
+
+## Bonus
+
+Add an optional third parameter at the of end the command line `-r` that let you decrypt a message.
+
+```bash
+$ cat message.txt
+Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
+$ python substitution.py message.txt AZERTYUIOPQSDFGHJKLMWXCVBN
+One fish. Two fish! Red fish? Blue fish.
+```
+
 # When to Do it
 
 By Sunday, january 26, 2025 at 11:59 PM
@@ -42,12 +55,12 @@ Test your script with command `./check substitution.py`
 The following examples should help you to develop your program.
 
 ```bash
-$ python substitution.py ./test/01.in AZERTYUIOPQSDFGHJKLMWXCVBN
+$ python substitution.py .test/01.in AZERTYUIOPQSDFGHJKLMWXCVBN
 Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
 ```
 
 ```bash
-$ python substitution.py ./test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
+$ python substitution.py .test/02.in AZERTYUIOPQSDFGHJKLMWXCVBN
 ITSSG
 ```
 
@@ -55,6 +68,15 @@ ITSSG
 $ python substitution.py .test/03.in MLKJHGFDSQNBVCXWPOIUYTREZA
 Kxcfomuybmusxci! Uxjmz si zxyo jmz. Zxy'oh xgg ux Fohmu Wbmkhi! Zxy'oh xgg mcj mrmz!
 ```
+
+```bash
+$ python substitution.py .test/04.in MLKJHGFDSQNBVCXWPOIUYTREZA
+Dmooz Wxuuho rmi m dsfdbz ycyiymb lxz sc vmcz rmzi.
+Gxo xch udscf, dh dmuhj udh iyvvho dxbsjmzi vxoh udmc mcz xudho usvh xg zhmo. 
+Gxo mcxudho, dh ohmbbz rmcuhj ux jx dsi dxvhrxon, lyu rmi gxokhj ux jx su sc ihkohu, sc udh jhmj xg udh csfdu. 
+Mcj dh mbix dmwwhchj ux lh m rsamoj.
+```
+
 # How to Submit
 
 Once you're done with all tasks, submit all your python files for the week on Moodle.
