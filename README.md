@@ -42,8 +42,6 @@ $ python substitution.py examples/fish.txt AZERTYUIOPQSDFGHJKLMWXCVBN
 Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
 ```
 
-![Demo of scrabble.py](scrabble.gif)
-
 The key must contain each of the 26 letters of the alphabet exactly once.
 It may be written in uppercase, in lowercase, or both: `NQXPOMAFTRHZLGECYJIUWSKDVB`, `nqxpomaftrhzlgecyjiuwskdvb`
 and `NqXpOmAfTrHzLgEcYjIuWsKdVb` are the same key.
