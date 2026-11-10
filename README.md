@@ -1,7 +1,5 @@
 # Substitution
 
-<img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_672/MTc0NDYwNzg4ODA2MTk4OTE4/top-insane-magic-the-gathering-cards.webp" alt="abc" width="300">
-
 # What to Do
 
 In a substitution cipher, we “encrypt” (i.e., conceal in a reversible way) a message by replacing every letter with another letter.
@@ -43,6 +41,8 @@ Your program must encrypt the entire content of the file:
 $ python substitution.py examples/fish.txt AZERTYUIOPQSDFGHJKLMWXCVBN
 Gft yoli. Mcg yoli! Ktr yoli? Zswt yoli.
 ```
+
+![Demo of scrabble.py](scrabble.gif)
 
 The key must contain each of the 26 letters of the alphabet exactly once.
 It may be written in uppercase, in lowercase, or both: `NQXPOMAFTRHZLGECYJIUWSKDVB`, `nqxpomaftrhzlgecyjiuwskdvb`
