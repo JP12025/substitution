@@ -27,11 +27,7 @@ At the time the user executes the program, they should provide two command-line 
 
 The encrypted message is printed on the standard output.
 
-```bash
-$ python substitution.py examples/hello.txt NQXPOMAFTRHZLGECYJIUWSKDVB
-FOZZE
-```
-
+![Demo of substitution.py](substitution.gif)
 Your program must encrypt the entire content of the file:
 - only letters are replaced, and they keep their case: an uppercase letter stays uppercase, a lowercase letter stays lowercase;
 - every other character (spaces, digits, punctuation, tabulations, newlines…) is copied unchanged;
